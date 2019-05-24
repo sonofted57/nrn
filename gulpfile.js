@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
+var scsslint = require('gulp-scss-lint');
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
@@ -9,6 +10,7 @@ gulp.task('sass', function() {
     .pipe(gulp.dest("src/assets/css"))
     .pipe(browserSync.stream());
 });
+
 
 //Move the javascript files into our /src/js/folder
 gulp.task('js', function() {
