@@ -794,6 +794,61 @@ input[type="button"],
 button {
   line-height: calc(2.75rem - 2px); }
 
+html {
+  box-sizing: border-box; }
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit; }
+
+figure {
+  margin: 0; }
+
+.absolute-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; }
+
+.fog {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #000; }
+  .fog__container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    overflow: hidden; }
+  .fog__img {
+    position: absolute;
+    height: 100vh;
+    width: 300vw; }
+    .fog__img--first {
+      background: url("../../images/fog-1.png") repeat-x;
+      background-size: contain;
+      background-position: center;
+      animation: marquee 60s linear infinite; }
+    .fog__img--second {
+      background: url("../../images/fog-2.png") repeat-x;
+      background-size: contain;
+      background-position: center;
+      animation: marquee 40s linear infinite; }
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(-200vw, 0, 0); } }
+
 /* BG */
 #bg {
   -moz-transform: scale(1.0);
