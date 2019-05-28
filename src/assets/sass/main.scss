@@ -4,7 +4,7 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 
 /*
 	Dimension by HTML5 UP
@@ -28,7 +28,6 @@
 	@import 'base/reset';
 	@import 'base/page';
 	@import 'base/typography';
-
 // Component.
 
 	@import 'components/form';
@@ -40,6 +39,7 @@
 	@import 'components/icons';
 	@import 'components/table';
 	@import 'components/button';
+	@import 'components/fog';
 
 // Layout.
 

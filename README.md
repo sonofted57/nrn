@@ -28,3 +28,6 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+	Pacific Northwest Fog:
+		Thomas Vaeth (thomasvaeth.com)
