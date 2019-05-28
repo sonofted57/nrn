@@ -849,6 +849,33 @@ figure {
   100% {
     transform: translate3d(-200vw, 0, 0); } }
 
+@media screen and (max-width: 480px) {
+  .fog {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #000; }
+    .fog__container {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      overflow: hidden; }
+    .fog__img {
+      position: absolute;
+      height: 100vh;
+      width: 300vw;
+      z-index: 2; }
+      .fog__img--first {
+        background: url("../../images/fog-1.png") repeat-x;
+        background-size: cover;
+        background-position: center;
+        animation: marquee 60s linear infinite; }
+      .fog__img--second {
+        background: url("../../images/fog-2.png") repeat-x;
+        background-size: cover;
+        background-position: center;
+        animation: marquee 40s linear infinite; } }
+
 /* BG */
 #bg {
   -moz-transform: scale(1.0);
@@ -862,7 +889,7 @@ figure {
   width: 100%;
   height: 100vh;
   z-index: 1; }
-  #bg:before, #bg:after {
+  #bg:after, #bg:before {
     content: '';
     display: block;
     position: absolute;
@@ -880,9 +907,9 @@ figure {
     -ms-transition-delay: 0.75s;
     transition-delay: 0.75s;
     background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-    background-size: auto, 256px 256px;
-    background-position: center, center;
-    background-repeat: no-repeat, repeat;
+    background-size: auto, 256px 256px;
+    background-position: center, center;
+    background-repeat: no-repeat, repeat;
     z-index: 2; }
   #bg:after {
     -moz-transform: scale(1.125);
