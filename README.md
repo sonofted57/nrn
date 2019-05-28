@@ -16,6 +16,10 @@ AJ
 aj@lkn.io | @ajlkn
 
 Credits:
+    Music:
+      Dark Times
+      Daniel James Dolby
+      freemusicarchive.org/music/Daniel_James_Dolby/
 
     Demo Images:
     	Unsplash (unsplash.com)

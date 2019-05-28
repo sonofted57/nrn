@@ -99,7 +99,10 @@ html {
     html {
       font-size: 10pt; } }
 
-body, input, select, textarea {
+body,
+input,
+select,
+textarea {
   color: #ffffff;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
@@ -117,27 +120,44 @@ a {
   a:hover {
     border-bottom-color: transparent; }
 
-strong, b {
+b,
+strong {
   color: #ffffff;
   font-weight: 600; }
 
-em, i {
+em,
+i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2rem 0; }
+  margin: 0 0 2rem; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #ffffff;
   font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
   text-transform: uppercase;
   letter-spacing: 0.2rem; }
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
     color: inherit;
     text-decoration: none; }
-  h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+  h1.major,
+  h2.major,
+  h3.major,
+  h4.major,
+  h5.major,
+  h6.major {
     border-bottom: solid 1px #ffffff;
     width: -moz-max-content;
     width: -webkit-max-content;
@@ -189,7 +209,7 @@ sup {
 blockquote {
   border-left: solid 4px #ffffff;
   font-style: italic;
-  margin: 0 0 2rem 0;
+  margin: 0 0 2rem;
   padding: 0.5rem 0 0.5rem 2rem; }
 
 code {
@@ -204,7 +224,7 @@ pre {
   -webkit-overflow-scrolling: touch;
   font-family: "Courier New", monospace;
   font-size: 0.9rem;
-  margin: 0 0 2rem 0; }
+  margin: 0 0 2rem; }
   pre code {
     display: block;
     line-height: 1.75;
@@ -224,6 +244,9 @@ hr {
 
 .align-right {
   text-align: right; }
+
+.logo-type > span {
+  font-size: 1.25rem; }
 
 /* Form */
 form {
