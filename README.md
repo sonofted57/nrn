@@ -30,4 +30,4 @@ Credits:
 		Responsive Tools (github.com/ajlkn/responsive-tools)
 
 	Pacific Northwest Fog:
-		Thomas Vaeth
+		Thomas Vaeth (thomasvaeth.com)
