@@ -188,6 +188,12 @@ hr {
 	font-weight: _logo-type(weight);
 	letter-spacing: _logo-type(letter-spacing);
 	text-transform: _logo-type(case);
+
+	>.cap{
+		font-size: _logo-type(size);
+		font-weight: _logo-type(weight);
+		text-transform: _logo-type(cap-case);
+	}
 	> span {
 		font-size: 0.75rem;
 		letter-spacing: .25rem;

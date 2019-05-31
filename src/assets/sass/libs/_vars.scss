@@ -24,12 +24,13 @@ $font: (
 ); // Logo-type.
 $logo-type: (
 	family: ('Cinzel', serif),
-	size: 2.2rem,
+	size: 2.7rem,
 	weight: 400,
 	weight-bold: 600,
 	letter-spacing: .75rem,
 	letter-spacing-heading: 0.75rem,
-	case:none
+	case:none,
+	cap-case: uppercase
 );
 
 // Palette.

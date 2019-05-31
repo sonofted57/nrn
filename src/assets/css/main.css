@@ -249,10 +249,14 @@ hr {
 
 .logo-type {
   font-family: "Cinzel", serif;
-  font-size: 2.2rem;
+  font-size: 2.7rem;
   font-weight: 400;
   letter-spacing: 0.75rem;
   text-transform: none; }
+  .logo-type > .cap {
+    font-size: 2.7rem;
+    font-weight: 400;
+    text-transform: uppercase; }
   .logo-type > span {
     font-size: 0.75rem;
     letter-spacing: .25rem;
