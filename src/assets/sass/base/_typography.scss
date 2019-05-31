@@ -183,7 +183,14 @@ hr {
 }
 
 .logo-type {
+	font-family: _logo-type(family);
+	font-size: _logo-type(size);
+	font-weight: _logo-type(weight);
+	letter-spacing: _logo-type(letter-spacing);
+	text-transform: _logo-type(case);
 	> span {
-		font-size: 1.25rem;
-	}
+		font-size: 0.75rem;
+		letter-spacing: .25rem;
+		text-transform: lowercase;
+		}
 }
