@@ -11,7 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.5",
-    "gulp": "^3.8.11",
+    "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "gulp-scss-lint": "^1.0.0",
     "node-sass": "^4.12.0"
